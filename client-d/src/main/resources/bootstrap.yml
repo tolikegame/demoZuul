@@ -1,8 +1,8 @@
 server:
-  port: 7077
+  port: 7080
 spring:
   application:
-    name: client-a
+    name: client-b
 eureka:
   client:
     service-url:

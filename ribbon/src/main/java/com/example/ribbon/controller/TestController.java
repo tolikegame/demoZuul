@@ -13,7 +13,7 @@ public class TestController {
 
     @GetMapping("/add")
     public String add(Integer a,Integer b){
-        String result = restTemplate.getForObject("http://CLIENT-A/testRibbon?a=" + a + "&b=" + b, String.class);
+        String result = restTemplate.getForObject("http://CLIENT-B/testRibbon?a=" + a + "&b=" + b, String.class);
         System.out.println(result);
         return result;
     }

@@ -1,4 +1,4 @@
-package com.example.clienta.controller;
+package com.example.clientd.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

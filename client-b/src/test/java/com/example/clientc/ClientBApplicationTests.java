@@ -1,4 +1,4 @@
-package com.example.clientb;
+package com.example.clientc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
