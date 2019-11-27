@@ -31,17 +31,17 @@ zuul:
 #        - user #可指定用户粒度
 #        - origin #可指定客户端地址粒度
 #        - url #可指定url粒度
-#
-#security:
-#  basic:
-#    enabled: false
-#  oauth2:
-#    client:
-#      access-token-uri: http://localhost:7779/uaa/oauth/token #令牌端点
-#      user-authorization-uri: http://localhost:7779/uaa/oauth/authorize #授权端点
-#      client-id: zuul_server #OAuth2客户端ID
-#      client-secret: secret #OAuth2客户端密钥
-#    resource:
-#      jwt:
-#        key-value: springcloud123 #使用对称加密方式，默认算法为HS256
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      access-token-uri: http://localhost:7779/uaa/oauth/token #令牌端点
+      user-authorization-uri: http://localhost:7779/uaa/oauth/authorize #授权端点
+      client-id: zuul_server #OAuth2客户端ID
+      client-secret: secret #OAuth2客户端密钥
+    resource:
+      jwt:
+        key-value: springcloud123 #使用对称加密方式，默认算法为HS256
 
